@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.chair{
+    height: 60%;
+    position: absolute;
+    top: 70%;
+    left: 75%;
+    transform: translate(-50%, -70%);
+}
+.sec1{
+    background-image: url("./images/homepage.jpg");
+    background-size: cover;
+}
+.sec1 h1{
+    font-size: 55px;
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    background: linear-gradient(to left,rgb(2, 95, 6), rgb(1, 56, 10));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sec2 h1{
+    position: absolute;
+    top: 10%;
+    left:50%;
+    transform: translate(-50%,-10%);
+    background: linear-gradient(to left,rgb(2, 56, 2), rgb(2, 110, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+}
+.discription{
+    margin: 20%;
+    width:50%;
+    margin-left: 5%;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+}
+.discription p{
+margin: 50px 0;
+
+}
+.sec2, .sec3{
+    background: linear-gradient(to left,rgb(233, 241, 233), rgb(161, 163, 159));     
+}
+.sec3 .discription{ 
+    position: absolute;
+    left: 40%;
+}
+
+.sec3 h1{
+    position: absolute;
+    top: 10%;
+    left:50%;
+    transform: translate(-50%,-10%);
+    background: linear-gradient(to left,rgb(2, 56, 2), rgb(2, 110, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+}
+.plants{
+position: absolute;
+height: 60%;
+width: 40%;
+top: 30%;
+right: 60%;
+padding: 10px;
+
+}
